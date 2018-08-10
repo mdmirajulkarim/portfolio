@@ -1,5 +1,4 @@
 /* Globals */
-
 body {
   font-family: Arial, Helvetica, sans-serif;
   margin: 0;
@@ -15,8 +14,19 @@ body {
   margin: auto;
 }
 
-/* Header */
+/* Icons */
+.fa, .fas, .fab {
+  display: inline-block;
+  width: 20px;
+}
 
+/* Active nav item */
+.active {
+  color: #EF8354 !important;
+  font-size: 18px;
+}
+
+/* Header */
 header {
   background-color: #2D3142;
   color: #F7F7F7;
@@ -41,7 +51,6 @@ header #title p span {
 }
 
 /* Header Navigation */
-
 header #nav-bar {
   width: 100%;
 }
@@ -59,16 +68,21 @@ header #nav-bar li {
   margin-bottom: -1px;
   padding: 5px ;
   background-color: #4F5D75;
+  font-size: 17px;
 }
 
 header #nav-bar a {
   color: #F7F7F7;
   text-decoration: none;
   margin-left: 10px;
+  text-align: left;
+}
+
+header #nav-bar a:hover {
+  color: #EF8354;
 }
 
 /* Footer */
-
 footer {
   background-color: #2D3142;
   color: #F7F7F7;
