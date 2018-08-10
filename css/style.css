@@ -80,6 +80,43 @@ header #nav-bar a {
 
 header #nav-bar a:hover {
   color: #EF8354;
+  transition: 350ms;
+}
+
+/* About */
+#about h2 {
+  text-align: center;
+  font-size: 1.4em;
+}
+
+#about #information {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+  text-align:center;
+  padding-bottom: 20px;
+}
+
+#about #information p {
+  margin: 0;
+}
+
+#about #skills {
+  text-align: center;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+#about #skills .skill img:hover {
+  transform: scale(1.05);
+  transition: 150ms;
+}
+
+#about #skills .skill img {
+  width: 125px;
+  height: auto;
+}
+
+#about #skills .skill h3 {
+  margin-top: 5px;
+  font-size: 1.7em;
 }
 
 /* Footer */
