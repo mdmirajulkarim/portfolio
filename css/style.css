@@ -31,6 +31,7 @@ header {
   background-color: #2D3142;
   color: #F7F7F7;
   border-bottom: solid 2px #EF8354;
+  margin-bottom: 25px;
 }
 
 header #title {
@@ -93,6 +94,7 @@ header #nav-bar a:hover {
   border-bottom: 1px solid rgba(0, 0, 0, 0.3);
   text-align:center;
   padding-bottom: 20px;
+  margin-bottom: 25px;
 }
 
 #about #information p {
@@ -102,6 +104,7 @@ header #nav-bar a:hover {
 #about #skills {
   text-align: center;
   border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+  margin-bottom: 25px;
 }
 
 #about #skills .skill img:hover {
@@ -117,6 +120,105 @@ header #nav-bar a:hover {
 #about #skills .skill h3 {
   margin-top: 5px;
   font-size: 1.7em;
+}
+
+#about #contact {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+  padding-bottom: 10px;
+  margin-bottom: 25px;
+}
+
+#about #contact .contact-item {
+  text-align: center;
+  padding: 32px 0;
+}
+
+#about #contact .contact-item a {
+  border: 1px solid #4F5D75;
+  padding: 20px;
+  font-size: 1.1em;
+  border-radius: 12px;
+  background: #4F5D75;
+  color: #F7F7F7;
+  margin-left: 10px;
+}
+
+#about #contact .contact-item a:hover {
+  background: #2D3142;
+  color: #EF8354;
+  transition: 350ms;
+}
+
+#about #contact .contact-item i {
+  margin-right: 10px;
+}
+
+/* Portfolio */
+#portfolio h2 {
+  text-align: center;
+  font-size: 1.4em;
+}
+
+#portfolio #showcase {
+  margin-bottom: 25px;
+  /* border: 1px solid black; */
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+#portfolio #showcase .project {
+ width: 300px;
+ max-height: 350px;
+ margin-bottom: 20px;
+ border: 1px solid #F7F7F7;
+ background-color: #F7F7F7;
+ border-radius: 5px;
+ box-shadow: 2px 1px 2px 3px #2D3142;
+ padding: 7px;
+ overflow: hidden;
+}
+
+#portfolio #showcase .project .img img {
+  width: 100%;
+  height: 200px;
+  border-radius: 4px;
+  transition: 50ms;
+}
+
+#portfolio #showcase .project .img img:hover {
+  transform: scale(1.01);
+}
+
+#portfolio #showcase .project .description h3 {
+  text-align: center;
+  margin: 2px auto;
+}
+
+#portfolio #showcase .project .description p {
+  width: 80%;
+  margin: 5px auto;
+  text-align: center;
+}
+
+#portfolio #showcase .project .description a {
+  display: block;
+  text-align: center;
+  padding: 5px;
+  border-radius: 3px;
+  background: #4F5D75;
+  color: #F7F7F7;
+}
+
+#portfolio #showcase .project .description a:hover {
+  background: #2D3142;
+  color: #EF8354;
+  transition: 350ms;
+}
+
+#portfolio #showcase .project .description i {
+  margin-right: 10px;
 }
 
 /* Footer */
