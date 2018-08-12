@@ -360,10 +360,13 @@ footer {
   #about #information {
     width: 35%;
     font-size: 1.1em;
+    margin-left: 65px;
   }
 
   #about #skills {
     justify-content: space-evenly;
+    width: 40%;
+    margin: -5px 65px 0 0;
   }
 
   #about #contact .contact-item {
