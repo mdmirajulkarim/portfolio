@@ -75,8 +75,11 @@ header #nav-bar li {
 header #nav-bar a {
   color: #F7F7F7;
   text-decoration: none;
-  margin-left: 10px;
   text-align: left;
+}
+
+header #nav-bar i {
+  padding-right: 15px;
 }
 
 header #nav-bar a:hover {
@@ -141,6 +144,7 @@ header #nav-bar a:hover {
   background: #4F5D75;
   color: #F7F7F7;
   margin-left: 10px;
+  text-decoration: none;
 }
 
 #about #contact .contact-item a:hover {
@@ -170,7 +174,7 @@ header #nav-bar a:hover {
 
 #portfolio #showcase .project {
  width: 300px;
- max-height: 350px;
+ max-height: 500px;
  margin-bottom: 20px;
  border: 1px solid #F7F7F7;
  background-color: #F7F7F7;
@@ -209,6 +213,7 @@ header #nav-bar a:hover {
   border-radius: 3px;
   background: #4F5D75;
   color: #F7F7F7;
+  text-decoration: none;
 }
 
 #portfolio #showcase .project .description a:hover {
@@ -227,4 +232,131 @@ footer {
   color: #F7F7F7;
   padding: 5px 10px;
   border-top: solid 2px #EF8354;
+}
+
+/* Media Queries */
+/* min 1024px */
+@media screen and (min-width: 1024px) {
+  /* Clear floats */
+  .clr {
+    clear: both;
+  }
+
+  /* Header */
+  header #title {
+    display: inline-block;
+    width: 50%;
+    box-sizing: border-box;
+  }
+
+  header #nav-bar {
+    width: 50%;
+    float: right;
+  }
+
+  header #nav-bar li {
+    display: inline-block;
+    border: none;
+    background: none;
+    padding-left: 25px;
+    padding-top: 22px;
+  }
+
+  header #nav-bar a {
+    color: #F7F7F7;
+    text-decoration: none;
+    margin-left: 5px;
+    text-align: left;
+    border: 1px solid #BFC0C0;
+    border-radius: 20px;
+    padding: 10px;
+  }
+  
+  header #nav-bar a:hover {
+    color: #EF8354;
+    transition: 350ms;
+  }
+
+  header #nav-bar i {
+    padding-right: 5px;
+  }
+
+  /* Main, About, Skills & Contact */
+  #main {
+    width: 95%;
+  }
+
+  #about {
+    box-sizing: border-box;
+    text-align: left;
+  }
+
+  #about h2 {
+    font-size: 1.4em;
+    text-align: center;
+  }
+  
+  #about #information {
+    border: none;
+    padding-bottom: 20px;
+    margin-bottom: 25px;
+    text-align: left;
+    width: 50%;
+    box-sizing: border-box;
+    float: left;
+  }
+
+  #about #information i {
+    display: block;
+    margin:auto;
+  }
+  
+  #about #skills {
+    text-align: center;
+    border-bottom: none;
+    margin-bottom: 25px;
+    margin-top: -15px;
+    width: 50%;
+    float: right;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  #about #skills h2 {
+    display: none;
+  }
+
+  #about #skills .skill {
+    display: inline-block;
+    transform: scale(0.5);
+    height: 120px;
+    margin-top: -15px;
+  }
+
+  #about #contact {
+    clear: both;
+    text-align: center;
+  }
+
+  #about #contact .contact-item {
+    display: inline-block;
+    width: 20%;
+  }
+}
+
+/* min 1440px */
+@media screen and (min-width: 1440px) {
+  header #nav-bar li {
+    padding-left: 85px;
+  }
+
+  #about #skills {
+    justify-content: space-evenly;
+  }
+
+  #about #contact .contact-item {
+    width: 15%;
+  }
 }
