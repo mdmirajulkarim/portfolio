@@ -246,6 +246,7 @@ footer {
   header #title {
     display: inline-block;
     width: 50%;
+    padding-left: 35px;
     box-sizing: border-box;
   }
 
@@ -301,7 +302,7 @@ footer {
     padding-bottom: 20px;
     margin-bottom: 25px;
     text-align: left;
-    width: 50%;
+    width: 45%;
     box-sizing: border-box;
     float: left;
   }
@@ -350,6 +351,15 @@ footer {
 @media screen and (min-width: 1440px) {
   header #nav-bar li {
     padding-left: 85px;
+  }
+
+  #about h2 {
+    font-size: 1.7em;
+  }
+
+  #about #information {
+    width: 35%;
+    font-size: 1.1em;
   }
 
   #about #skills {
