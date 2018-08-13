@@ -55,6 +55,9 @@ header #title h1 {
 header #title p {
   margin: 0;
   font-size: 1.1em;
+  position: relative;
+  left: 0px;
+  top: 5px;
 }
 
 header #title p span {
