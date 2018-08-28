@@ -1,5 +1,7 @@
 # My Personal Website
 
+This repo contains my very first personal website.
+
 ## Desktop View
 
 ![image](https://user-images.githubusercontent.com/32787307/44693399-e4b1a180-aa67-11e8-901c-3a1ff861306f.png)
