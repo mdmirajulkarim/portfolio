@@ -175,6 +175,19 @@ header #nav-bar a:hover {
 
 /* Portfolio */
 
+.wip {
+  text-align:center;
+  font-size: 14px;
+  padding: 0;
+  border: 1px solid green;
+  background-color: green;
+  border-radius: 10px;
+  color: #fff;
+  width: 50px;
+  margin: auto;
+  margin-bottom: 5px;
+}
+
 #portfolio #showcase {
   margin-bottom: 25px;
   /* border: 1px solid black; */
