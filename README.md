@@ -2,7 +2,7 @@
 
 This repo contains my minimalistic personal portfolio website.
 
-* Personal Portfolio -> [Live link](https://sneakzz.github.io/)
+* Personal Portfolio ->
 
   This project was built using:
     * HTML5
